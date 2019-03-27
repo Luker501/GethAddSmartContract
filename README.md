@@ -34,7 +34,7 @@ web3.personal.unlockAccount('<the account address here>', '<the password here>')
 
 ## Deploy Contract
 
-Next we need to Deploy the contract onto the blockchain (the following assumes that the unlocked account was your nodes first account):
+Next we need to Deploy the contract onto the blockchain (the following assumes that the unlocked account was your node's first account):
 
 ```
 var deployContract = helloworldContract.new(
@@ -70,14 +70,14 @@ if the transaction has been added to a block then the following command will ret
  eth.getTransactionReceipt("<Your transaction Hash>")
 ```
 
-Note that you have to have a certain number of nodes in the network before the blockchain can be built.
+Note that you have to have a certain number of nodes in the network before the blockchain will commence building new blocks.
 
 ## Lock Account
 
 Now you have added the transaction, remember to clear the terminal screen and relock the account through:
 
 ```
-web3.personal.lockAccount('0x76182383726f4c5b8ef5288456c146d27676190a')
+web3.personal.lockAccount('<the account address here>')
 ```
 
 To confirm that the account has been locked try:
