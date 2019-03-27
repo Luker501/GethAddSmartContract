@@ -1,4 +1,4 @@
-# Using Geth's javascript console to add a smart contract
+# Using Quorum's Geth fork to add a smart contract
 
 This tutorial assumes that you are using geth as a command line tool to run a full Quorum node. *note that it is not advised to use this tutorial for public blockchain networks like Ethereum as we will be unlocking accounts to post transactions, and anyone with an RPC connection to your node will be able to use the unlocked account*.
 
